@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="墨点狗智能科技"
+        android:textSize="16sp" />
+
+    <scut.carson_ho.diy_view.SuperEditText
+        android:id="@+id/et_userid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorfocus"
+        android:textSize="20sp"
+        app:cursor="@drawable/cursortest"
+        app:delete_height="80"
+        app:delete_width="80"
+        app:delete_x="0"
+        app:delete_y="0"
+        app:ic_delete="@drawable/delete"
+        app:ic_left_click="@drawable/ic_left_click"
+        app:ic_left_unclick="@drawable/ic_left_unclick"
+        app:left_height="60"
+
+        app:left_width="60"
+        app:left_x="0"
+        app:left_y="0"
+
+        app:lineColor_click="@color/colorfocus"
+
+        app:lineColor_unclick="@color/colorDeafult"
+        app:linePosition="1"
+
+        />
+
+    <scut.carson_ho.diy_view.SuperEditText
+        android:id="@+id/et_psw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        app:ic_left_click="@drawable/password_click"
+        app:ic_left_unclick="@drawable/password_unclick"
+
+        />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_back"
+        android:text="登录"
+        android:textColor="#fff"
+        android:textSize="21sp" />
+</LinearLayout>

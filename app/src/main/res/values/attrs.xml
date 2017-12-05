@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="customImageButton">
+        <attr name="bg_openid" format="reference"></attr>
+        <attr name="bg_closedid" format="reference"></attr>
+        <attr name="default_state" format="boolean"></attr>
+    </declare-styleable>
+</resources>
